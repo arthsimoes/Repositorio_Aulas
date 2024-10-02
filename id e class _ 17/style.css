@@ -1,0 +1,47 @@
+*{
+    margin: 5;
+    padding: 0;
+}
+
+
+#titulo-principal{
+    background-color: rgb(228, 228, 228);
+    color: rgb(0, 211, 211);
+    text-align: center;
+}
+#titulo-dois{
+    background-color: rgb(228, 228, 228);
+    color: rgb(0, 195, 202);
+    display: inline;
+}
+#titulo-tres{
+    background-color: rgb(228, 228, 228);
+    color: rgb(0, 195, 202);
+    display: inline;
+}
+.basico{
+    background-color: wheat;
+    color: steelblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+}
+.intermediario{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: wheat;
+color: orange;
+font-weight: bold;
+display: inline;
+}
+.avancado{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: wheat;
+    color: red;
+    font-weight: bold;
+    display: inline;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: tomato;
+    font-size: 1.5em;
+    text-align: justify;
+}
