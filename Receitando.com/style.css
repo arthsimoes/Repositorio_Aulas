@@ -65,7 +65,7 @@ img {
 }
 
 .lasanha-img {
-    max-width: 45%;
+    max-width: 80%;
     height: 200px; /* Mantém a proporção */
     border: 5px solid rgb(165, 44, 0); /* Borda da imagem */
     border-radius: 10px; /* Arredonda os cantos da borda */
@@ -73,7 +73,7 @@ img {
     object-fit: cover;
 }
 .bolo-img {
-    max-width: 45%;
+    max-width: 80%;
     height: 200px; /* Mantém a proporção */
     border: 5px solid rgb(165, 44, 0); /* Borda da imagem */
     border-radius: 10px; /* Arredonda os cantos da borda */
@@ -82,6 +82,12 @@ img {
     object-fit: cover;
 }
 
+.picture-container {
+    display: flex;
+    justify-content: center; /* Alinha os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    margin: 20px 0; /* Adicione alguma margem acima e abaixo, se desejar */
+}
 
 
 .nav-icon {
