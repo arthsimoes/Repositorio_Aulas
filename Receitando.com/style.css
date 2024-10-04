@@ -82,6 +82,16 @@ img {
     object-fit: cover;
 }
 
+.drink-img {
+    max-width: 80%;
+    height: 200px; /* Mantém a proporção */
+    border: 5px solid rgb(165, 44, 0); /* Borda da imagem */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    margin-left: 20px;
+    width: auto;
+    object-fit: cover;
+}
+
 .picture-container {
     display: flex;
     justify-content: center; /* Alinha os itens horizontalmente */
@@ -95,4 +105,15 @@ img {
     height: 20px; /* Aumentado para teste */
     margin-right: 8px; /* Espaço entre o ícone e o texto */
     vertical-align: middle; /* Alinha o ícone ao meio do texto */
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: -9px;
+    background-color: rgb(255, 135, 22); /* Cor laranja */
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
