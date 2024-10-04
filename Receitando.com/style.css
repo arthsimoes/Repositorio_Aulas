@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Huge Salmon';
+    src: url('Huge Salmon.otf') format('opentype'); /* Verifique o caminho */
+}
+
+@font-face {
+    font-family: 'Augustus';
+    src: url('AUGUSTUS.TTF') format('opentype'); /* Verifique o caminho */
+}
+
+header {
+    background-color: rgb(255, 155, 97);
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Augustus', sans-serif;
+}
+
+header img {
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-top: -10px;
+    max-width: 100px; 
+    height: auto; 
+}
+
+header a {
+    color: white;
+    margin: 11px;
+}
+
+nav {
+    margin: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'augustus', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(165, 44, 0);
+    font-family: 'augustus', sans-serif;            
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+nav a:hover { /* Corrigido */
+    background-color: rgb(255, 172, 172);  
+}
+
+/* Estilos para o título */
+h1 { /* Corrigido */
+    font-family: 'Huge Salmon', sans-serif;
+    color: rgb(165, 44, 0);
+    margin: 10px;
+    display: inline;
+}
+
+/* Estilos para a imagem principal */
+img {
+    max-width: 100%; /* Isso permite que a imagem se ajuste ao contêiner */
+    height: auto; /* Mantém a proporção */
+}
+
+.lasanha-img {
+    max-width: 45%;
+    height: 200px; /* Mantém a proporção */
+    border: 5px solid rgb(165, 44, 0); /* Borda da imagem */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    width: auto;
+    object-fit: cover;
+}
+.bolo-img {
+    max-width: 45%;
+    height: 200px; /* Mantém a proporção */
+    border: 5px solid rgb(165, 44, 0); /* Borda da imagem */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    margin-left: 20px;
+    width: auto;
+    object-fit: cover;
+}
+
+
+
+.nav-icon {
+    width: 20px; /* Ajuste o tamanho do ícone (aumentado para teste) */
+    height: 20px; /* Aumentado para teste */
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+    vertical-align: middle; /* Alinha o ícone ao meio do texto */
+}
