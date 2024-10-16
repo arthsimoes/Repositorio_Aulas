@@ -14,6 +14,10 @@ header {
     padding: 10px;
     text-align: left;
     font-family: 'Augustus', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
 header img {
@@ -54,8 +58,9 @@ nav a:hover { /* Corrigido */
 h1 { /* Corrigido */
     font-family: 'Huge Salmon', sans-serif;
     color: rgb(165, 44, 0);
-    margin: 10px;
-    display: inline;
+    margin-top: 10px;
+    display: block;
+    font-size: 40px;
 }
 
 /* Estilos para a imagem principal */
@@ -71,6 +76,16 @@ img {
     border-radius: 10px; /* Arredonda os cantos da borda */
     width: auto;
     object-fit: cover;
+    margin-left: 20px;
+}
+.Risoto-de-camarao-img {
+    max-width: 80%;
+    height: 200px; /* Mantém a proporção */
+    border: 5px solid rgb(165, 44, 0); /* Borda da imagem */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    width: auto;
+    object-fit: cover;
+    margin-left: 20px;
 }
 .bolo-img {
     max-width: 80%;
@@ -110,10 +125,55 @@ img {
 footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    padding: -9px;
+    padding: 0px;
     background-color: rgb(255, 135, 22); /* Cor laranja */
     color: white;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+figure {
+    display: flex;
+    flex-direction: column; /* Empilha a imagem e a legenda verticalmente */
+    align-items: center; /* Centraliza a imagem e a legenda */
+    margin: 20px; /* Adiciona espaço entre as figuras */
+}
+
+figcaption {
+    margin-top: 5px; /* Espaço entre a imagem e a legenda */
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 135, 22);
+    display: inline-block; /* Ajusta o fundo ao tamanho do texto */
+    padding: 2px 5px; /* Ajusta o padding para reduzir o tamanho do fundo */
+    border-radius: 5px;
+    border: 2px solid #750d0d;
+    text-align: center; /* Centraliza o texto da legenda */
+}
+
+.header-content {
+    display: flex; /* Alinha ícone e título horizontalmente */
+    align-items: center; /* Alinha verticalmente ao centro */
+}
+
+.header-content img {
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+    max-width: 50px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: auto; /* Mantém a proporção */
+}
+
+.header-content h1 {
+    margin: 0; /* Remove margens padrão do h1 */
+    font-family: 'Huge Salmon', sans-serif; /* Mantém a fonte */
+    color: rgb(165, 44, 0); /* Cor do texto */
+    font-size: 40px; /* Tamanho da fonte */
+}
+.receitas {
+    flex: 2; /* Ocupa 2 partes do espaço disponível */
+    padding-left: 20px; /* Espaço entre a imagem e a receita */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas para melhor legibilidade */
+    color: #333; /* Cor do texto */
 }

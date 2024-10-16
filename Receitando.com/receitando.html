@@ -9,38 +9,51 @@
 </head>
 <body>
     <header>
-        <img src="ícones/icone_laranja-removebg-preview.png" alt="Ícone">
-        <h1>RECEITANDO.COM</h1>
+        <div class="header-content">
+            <img src="ícones/icone_laranja-removebg-preview.png" alt="Ícone">
+            <h1>RECEITANDO.COM</h1>
+        </div>
         <nav>
-            <a href="#"><img src="ícones/talheres-cruzados24.png" alt="Salgados" class="nav-icon"> SALGADOS</a>
-            <a href="#"><img src="ícones/talheres-cruzados24.png" alt="Doces" class="nav-icon"> DOCES</a>
-            <a href="#"><img src="ícones/talheres-cruzados24.png" alt="Bebidas" class="nav-icon"> BEBIDAS</a>
+            <a href="salgados.html"><img src="ícones/talheres-cruzados24.png" alt="Salgados" class="nav-icon"> SALGADOS</a>
+            <a href="doces.html"><img src="ícones/talheres-cruzados24.png" alt="Doces" class="nav-icon"> DOCES</a>
+            <a href="drinks.html"><img src="ícones/talheres-cruzados24.png" alt="Bebidas" class="nav-icon"> BEBIDAS</a>
         </nav>
     </header>
-<br><br>
-<div class="picture-container">
-    <picture>
-        <source media="(max-width:350px)" srcset="lasanha350.jpg" type="image/jpg">
-        <source media="(max-width:700px)" srcset="lasanha700.jpg" type="image/jpg">
-            <source media="(max-width:1000px)" srcset="lasanha700.jpg" type="image/jpg">
-            
-            <img src="lasanha.jpg" alt="Lasanha à Bolonhesa" class="lasanha-img">
-    </picture>
-    <picture>
-        <source media="(max-width:350px)" srcset="bolo.png" type="image/png">
-        <source media="(max-width:700px)" srcset="bolo.png" type="image/png">
+    
+    <br><br>
+    <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center; color: rgb(255, 135, 22)">Em nosso site, você irá encontrar receitas como:</h2>
+
+    <div class="picture-container">
+        <figure>
+            <picture>
+                <source media="(max-width:350px)" srcset="lasanha350.jpg" type="image/jpg">
+                <source media="(max-width:700px)" srcset="lasanha700.jpg" type="image/jpg">
+                <source media="(max-width:1000px)" srcset="lasanha700.jpg" type="image/jpg">
+                <img src="lasanha.jpg" alt="Lasanha à Bolonhesa" class="lasanha-img">
+            </picture>
+            <figcaption>Lasanha à Bolonhesa </figcaption>
+        </figure>
+        
+        <figure>
+            <picture>
+                <source media="(max-width:350px)" srcset="bolo.png" type="image/png">
+                <source media="(max-width:700px)" srcset="bolo.png" type="image/png">
                 <img src="bolo.png" alt="Bolo de Brigadeiro" class="bolo-img">
-
-    </picture>
-    <picture>
-        <source media="(max-width:350px)" srcset="drink.jpg" type="image/jpg">
-        <source media="(max-width:700px)" srcset="drink.jpg" type="image/jpg">
+            </picture>
+            <figcaption>Bolo de Brigadeiro</figcaption>
+        </figure>
+        
+        <figure>
+            <picture>
+                <source media="(max-width:350px)" srcset="drink.jpg" type="image/jpg">
+                <source media="(max-width:700px)" srcset="drink.jpg" type="image/jpg">
                 <img src="drink.jpg" alt="Drinks" class="drink-img">
-
-    </picture>
-</div>
-<footer>
-    <p>&copy; 2024 Receitando.com. Todos os direitos reservados.</p>
-</footer>
+            </picture>
+            <figcaption>Drinks</figcaption>
+        </figure>
+    </div>
+    <footer>
+        <p>&copy; 2024 Receitando.com. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
