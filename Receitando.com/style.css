@@ -78,6 +78,15 @@ img {
     object-fit: cover;
     margin-left: 20px;
 }
+.lasanha2-img {
+    max-width: 80%;
+    height: 300px; /* Mantém a proporção */
+    border: 5px solid rgb(165, 44, 0); /* Borda da imagem */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    width: auto;
+    object-fit: cover;
+    margin-left: 20px;
+}
 .Risoto-de-camarao-img {
     max-width: 80%;
     height: 200px; /* Mantém a proporção */
@@ -86,6 +95,27 @@ img {
     width: auto;
     object-fit: cover;
     margin-left: 20px;
+   
+}
+.risoto2-img{
+    max-width: 80%;
+    height: 300px; /* Mantém a proporção */
+    border: 5px solid rgb(165, 44, 0); /* Borda da imagem */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    width: auto;
+    object-fit: cover;
+    margin-left: 20px;
+    align-items: center;
+}
+.strogonoff-img{
+    max-width: 80%;
+    height: 300px; /* Mantém a proporção */
+    border: 5px solid rgb(165, 44, 0); /* Borda da imagem */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    width: auto;
+    object-fit: cover;
+    margin-left: 20px;
+    align-items: center;
 }
 .bolo-img {
     max-width: 80%;
@@ -112,6 +142,16 @@ img {
     justify-content: center; /* Alinha os itens horizontalmente */
     align-items: center; /* Alinha os itens verticalmente */
     margin: 20px 0; /* Adicione alguma margem acima e abaixo, se desejar */
+    flex-wrap: wrap;
+}
+
+
+.recipe-img {
+    width: 300px; /* Largura fixa */
+    height: 200px; /* Altura fixa */
+    object-fit: cover; /* Faz com que a imagem se ajuste ao tamanho */
+    border: 5px solid rgb(165, 44, 0); /* Borda da imagem */
+    border-radius: 10px; /* Arredonda os cantos da borda */
 }
 
 
@@ -176,4 +216,20 @@ figcaption {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.6; /* Aumenta o espaçamento entre linhas para melhor legibilidade */
     color: #333; /* Cor do texto */
+}
+.recipe-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.image-section {
+    margin-right: 20px; /* Espaço entre a imagem e a receita */
+}
+
+.picture-container {
+    text-align: center; /* Centraliza o texto da legenda */
+}
+
+.receitas {
+    max-width: 400px; /* Ajuste conforme necessário */
 }
