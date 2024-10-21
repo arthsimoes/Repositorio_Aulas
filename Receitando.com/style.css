@@ -27,10 +27,14 @@ header img {
     max-width: 100px; 
     height: auto; 
 }
-
+.recipe-img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
 header a {
     color: white;
     margin: 11px;
+    text-decoration: none;
 }
 
 nav {
@@ -61,6 +65,7 @@ h1 { /* Corrigido */
     margin-top: 10px;
     display: block;
     font-size: 40px;
+    text-decoration: none;
 }
 
 /* Estilos para a imagem principal */
