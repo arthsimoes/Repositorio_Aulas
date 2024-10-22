@@ -233,6 +233,9 @@ figcaption {
 
 .picture-container {
     text-align: center; /* Centraliza o texto da legenda */
+    background-color: #f0f0f0; /* Cor de fundo */
+    padding: 20px;
+    
 }
 
 .receitas {
